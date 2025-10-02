@@ -1,16 +1,20 @@
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-[Bb]in/
-[Oo]bj/
+# Бинарники
+bin/
+obj/
 
-# Visual Studio files
-.vs/
+# Системные файлы Visual Studio
 *.user
 *.suo
 *.userosscache
+*.sln.docstates
 
-# Project files
-*.csproj.user
+# Кеш и временные файлы
+*.vs/
+*.vscode/
+
+# Авто-бэкапы
+*.bak
+*.tmp
+
+# Логи
+*.log
